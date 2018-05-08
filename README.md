@@ -1,6 +1,6 @@
-# my-project
+# 模仿知乎日报-vue
 
-> A Vue.js project
+> 一个vue写的练手项目
 
 ## Build Setup
 
