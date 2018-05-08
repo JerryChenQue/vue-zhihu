@@ -1,0 +1,200 @@
+/*公共重置样式*/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  font-family: Helvetica, HelveticaNeue, Arial, Verdana, Sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1rem;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+q:before,
+q:after {
+  content: ''
+}
+
+object,
+embed {
+  vertical-align: top
+}
+
+hr,
+legend {
+  display: none
+}
+
+img,
+abbr,
+acronym,
+fieldset {
+  border: 0
+}
+
+ul li {
+  list-style-type: none
+}
+
+a,
+label {
+  cursor: pointer
+}
+
+img {
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+  color:#333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400
+}
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: .1px;
+  font-size: .1em;
+  line-height: 0;
+  clear: both
+}
+
+.clearfix {
+  *zoom: 1
+}
+
+input,
+textarea,
+select {
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #ccc
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ccc
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+button {
+  cursor: pointer;
+  color: #666
+}
+
+textarea {
+  resize: none;
+  outline: 0;
+  overflow: hidden;
+  padding: 5px
+}
+
+select {
+  outline: 0
+}
+
+img {
+  max-width: 100%
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-appearance: none;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #f8f9fc;
+  overflow: hidden;
+  height: 100%;
+  color:#333;
+}
+
+img {
+  outline: none;
+}
+
+
+/*----------------------公共样式----------------------------*/
+.loading-box{
+  position: fixed;
+  top:0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 95;
+}
+.icon-loading{
+  width: 1rem;
+  height: 1rem;
+  margin:1.5rem auto .2rem auto;
+  background: url('../images/loading.gif') no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+.loading-title{
+  font-size: .35rem;
+}
